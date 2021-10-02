@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{833DC1A6-DD35-4B4C-9FE0-B267E98DA9E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MRCPortfolioF20</RootNamespace>
+    <AssemblyName>MRCPortfolioF20</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="24Hr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="24Hr.Designer.cs">
+      <DependentUpon>24Hr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clock.Designer.cs">
+      <DependentUpon>Clock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateandTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateandTime.Designer.cs">
+      <DependentUpon>DateandTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckPrime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckPrime.Designer.cs">
+      <DependentUpon>CheckPrime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateTimePrivate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateTimePrivate.Designer.cs">
+      <DependentUpon>DateTimePrivate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventOrPrivate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventOrPrivate.Designer.cs">
+      <DependentUpon>EventOrPrivate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameV1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameV1.Designer.cs">
+      <DependentUpon>GameV1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Math.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Math.Designer.cs">
+      <DependentUpon>Math.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NextPrime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NextPrime.Designer.cs">
+      <DependentUpon>NextPrime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="House.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="House.Designer.cs">
+      <DependentUpon>House.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameV2.Designer.cs">
+      <DependentUpon>GameV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fibonacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibonacci.Designer.cs">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base2Convert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base2Convert.Designer.cs">
+      <DependentUpon>Base2Convert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LongDivision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LongDivision.Designer.cs">
+      <DependentUpon>LongDivision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutMe.Designer.cs">
+      <DependentUpon>AboutMe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Projects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Projects.Designer.cs">
+      <DependentUpon>Projects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelloWorld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelloWorld.Designer.cs">
+      <DependentUpon>HelloWorld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlashCardV1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlashCardV1.Designer.cs">
+      <DependentUpon>FlashCardV1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addition.Designer.cs">
+      <DependentUpon>Addition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subtraction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subtraction.Designer.cs">
+      <DependentUpon>Subtraction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Multiplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Multiplication.Designer.cs">
+      <DependentUpon>Multiplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShortDivision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShortDivision.Designer.cs">
+      <DependentUpon>ShortDivision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="24Hr.resx">
+      <DependentUpon>24Hr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckPrime.resx">
+      <DependentUpon>CheckPrime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clock.resx">
+      <DependentUpon>Clock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateandTime.resx">
+      <DependentUpon>DateandTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateTimePrivate.resx">
+      <DependentUpon>DateTimePrivate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventOrPrivate.resx">
+      <DependentUpon>EventOrPrivate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameV1.resx">
+      <DependentUpon>GameV1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LongDivision.resx">
+      <DependentUpon>LongDivision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Math.resx">
+      <DependentUpon>Math.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NextPrime.resx">
+      <DependentUpon>NextPrime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="House.resx">
+      <DependentUpon>House.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameV2.resx">
+      <DependentUpon>GameV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibonacci.resx">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base2Convert.resx">
+      <DependentUpon>Base2Convert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutMe.resx">
+      <DependentUpon>AboutMe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Projects.resx">
+      <DependentUpon>Projects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelloWorld.resx">
+      <DependentUpon>HelloWorld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlashCardV1.resx">
+      <DependentUpon>FlashCardV1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addition.resx">
+      <DependentUpon>Addition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subtraction.resx">
+      <DependentUpon>Subtraction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Multiplication.resx">
+      <DependentUpon>Multiplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShortDivision.resx">
+      <DependentUpon>ShortDivision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
